@@ -1,0 +1,12 @@
+/* CSS Custome Properties */
+
+:root {
+    --clr-primary-400: hsl(223, 87%, 63%);
+
+    --clr-secondary-400: hsl(223, 100%, 88%);
+    --clr-secondary-500:  hsl(354, 100%, 66%);
+
+    --clr-neutral-400: hsl(0, 0%, 59%);
+    --clr-neutral-800: hsl(209, 33%, 12%);
+
+}
