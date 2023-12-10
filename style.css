@@ -165,7 +165,7 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-  color: transparent;
+  color: var(--clr-neutral-100);
   background-color: var(--clr-primary-400);
 }
 
