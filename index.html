@@ -27,17 +27,21 @@
     <main>
       <h1>We are launching <span>soon!</span></h1>
       <p>Subscribe and get notified</p>
-      <form>
+      <form class="main__form">
         <input
           type="email"
           name="email"
           id="email"
+          class="main__form--input"
           placeholder="Your email address..."
           autocomplete="off"
           required
         />
         <button type="submit">Notify Me</button>
       </form>
+      <label for="main__form--input" class="main__form--label hidden">
+        Please provide a valid email address
+      </label>
       <section class="showcase">
         <img src="./images/illustration-dashboard.png" alt="showcase image" />
       </section>
@@ -57,6 +61,6 @@
       <p>&copy; Copyright Ping. All rights reserved</p>
     </footer>
 
-    <footer></footer>
+    <script src="script.js"></script>
   </body>
 </html>

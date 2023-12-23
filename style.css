@@ -108,7 +108,7 @@ form input {
   margin-bottom: 0.625rem;
   padding: 0.5rem;
   font-size: var(--fs-300);
-  color: var(--clr-secondary-400);
+  color: var(--clr-neutral-800);
   border: 1px solid var(--clr-primary-400);
   border-radius: 28px;
   box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.06);
@@ -132,6 +132,24 @@ form button:focus {
   color: var(--clr-primary-400);
   border: 1px solid var(--clr-primary-400);
   transition: all 400ms ease-in-out;
+}
+
+.main__form--label {
+  color: var(--clr-secondary-500);
+  font-style: oblique;
+  font-weight: 600;
+  font-size: var(--fs-300);
+  width: 50%;
+  text-align: center;
+  margin-top: clamp(0.1rem, -0.045rem + 2.327vw, 0.5rem);
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.border--alert {
+  border: 1px solid var(--clr-secondary-500);
 }
 
 /* Showcase Section */
